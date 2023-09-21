@@ -9,7 +9,7 @@ void setup() {
   }
   Serial.println("Hello World!");
   count = toggle = 0;
-  digitalWrite(PIN_LED, LOW);
+  digitalWrite(PIN_LED,LOW);
   delay(1000);
 }
 
@@ -22,7 +22,7 @@ void loop() {
     }
     if (count == 10) {
       while(1){
-        digitalWrite(PIN_LED, HIGH);
+        digitalWrite(PIN_LED,HIGH);
       }
     }
 }
